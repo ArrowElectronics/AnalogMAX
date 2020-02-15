@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
-:host >>> .ng-sidebar {
-  width: 300px;  
+@media (min-width: 768px)
+{
+    .col-md-9 {
+        width: 70% !important;
+    }
+    .col-md-3 {
+         width: 30% !important;
+    }
 }
