@@ -3,6 +3,7 @@
 
 @import "";
 
-:host >>> .ng-sidebar {
-  width: 300px;  
+@media (min-width: 768px)
+.col-md-3 {
+    width: 35%;
 }
